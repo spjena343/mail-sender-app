@@ -5,15 +5,15 @@ let mailtranspoter = nodemailer.createTransport(
     {
         service: "outlook365",
         auth: {
-            user: 'test-node34@outlook.com',
-            pass: 'qwefghnm,'
+            user: 'xyz@outlook.com',     //your email id and password
+            pass: 'yourpassword'
         }
     }
 )
 let mailDetails = {
-    from: 'test-node34@outlook.com',
-    to: 'spjena343@gmail.com',
-    subject: 'how to make a full page',
+    from: 'xyz@outlook.com',
+    to: 'recieversmail@gmail.com',   //reciever's email id
+    subject: 'message',
     text: 'hey how are you'
 
 }
